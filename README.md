@@ -82,25 +82,5 @@ Email or LinkedIn above, I reply within a day.
 ---
 
 <details>
-<!-- <summary>How this card is built</summary>
-
-The card is `profile-card.svg`, generated once by `make_card.py` and committed
-as a file. It calls no API when someone views the page, so it cannot
-rate-limit, go down, or leak a token.
-
-**Change the text:** edit the `FIELDS` list near the top of `make_card.py`.
-Each line is `("row", "Label", "Value")`. Use `("sec", "Name", "")` for a
-section header and `("gap", "", "")` for a blank line. Then run:
-
-```bash
-pip install pillow numpy
-python3 make_card.py
-``` -->
-
-**Change the portrait:** `python3 make_card.py photo.jpg` prints new ASCII art
-and rebuilds the SVG. Paste the printed art over `DEFAULT_ART` to bake it in.
-Use a head-and-shoulders shot on a plain light background.
-
-Either way, commit the regenerated `profile-card.svg`.
 
 </details>
