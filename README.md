@@ -82,7 +82,7 @@ Email or LinkedIn above, I reply within a day.
 ---
 
 <details>
-<summary>How this card is built</summary>
+<!-- <summary>How this card is built</summary>
 
 The card is `profile-card.svg`, generated once by `make_card.py` and committed
 as a file. It calls no API when someone views the page, so it cannot
@@ -95,7 +95,7 @@ section header and `("gap", "", "")` for a blank line. Then run:
 ```bash
 pip install pillow numpy
 python3 make_card.py
-```
+``` -->
 
 **Change the portrait:** `python3 make_card.py photo.jpg` prints new ASCII art
 and rebuilds the SVG. Paste the printed art over `DEFAULT_ART` to bake it in.
